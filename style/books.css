@@ -1,0 +1,92 @@
+.book-container {
+    background: white;
+    width: 100%;
+    padding: 20px 5%;
+    height: 100%;
+    border-top: 1px solid #ebf0f5;
+}
+
+.book-container h2 {
+    font-size: 15px;
+}
+
+.book-container .filters {
+    justify-content: end;
+}
+
+.book-container .filters .search {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    gap: 15px;
+}
+
+.book-container .filters .search input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+}
+
+.book-container .filters .search input:focus {
+    outline: none;
+
+}
+
+.book-container .fiters-btns {
+    color: var(--secondary-color);
+}
+
+.book-container .filter-sort {
+    justify-content: end;
+    margin-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5%;
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+
+.book-grid .book {
+    text-align: center;
+    cursor: pointer;
+}
+
+.book-grid .book img {
+    height: 200px;
+    width: 100%;
+}
+
+.book-grid .book .add-btn {
+    gap: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.489);
+    width: fit;
+    border-radius: 5px;
+    padding: 3px 0;
+    color: black;
+    justify-content: center;
+}
+
+.book-grid .book p.read-more {
+    color: var(--secondary-color);
+    margin: 5px 0;
+}
+
+.book-grid .book h3 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.book-grid .book p.author {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.book-grid .book p.author span {
+    text-decoration: underline;
+}
